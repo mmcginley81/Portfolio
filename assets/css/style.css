@@ -2,22 +2,61 @@
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
+    
+    --ff-primary: 'Lato', sans-serif;
+    --ff-secondary: 'Source Sans Pro', sans-serif;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
   }
+
+  @media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+
+
+    }
   
-  * {
+  *,
+    *::before,
+    *::after, {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+
   }
 
 
   
   body {
+    background: var(--secondary-color);
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.5;
   }
+
+  img {
+      display: block;
+      max-width: 100%;
+  }
+
+  h1, h2, h3 {
+      line-height: 1.1;
+      margin: 0;
+  }
+
+  h1 { font-size: var(--fs-h1);}
+  h2 { font-size: var(--fs-h2);}
+  h3 { font-size: var(--fs-h3);}
 
   header {
     padding: 20px 35px;
@@ -79,5 +118,9 @@
     background-image: url("../images/home-hero.jpg");
     background-size: cover;
     background-color: #333333;
+
+  }
+
+
 
   }
