@@ -24,7 +24,6 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -68,4 +67,13 @@
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
+  }
+
+  /*Hero Style Start */
+
+  .intro {
+    background-image: url("../images/home-hero.jpg");
+    background-size: cover;
+    background-color: #333333;
+
   }
