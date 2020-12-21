@@ -4,23 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matt McGinley</title>
+    <!-- Stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/all.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     
-    <!-- change google font API here-->
+    <!-- FontAwesome for social icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+    <!-- Google Font API-->
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet">
 
   </head>
   <body>
         <!-- navigation tags - block level element -->
-    <!-- temp close header <header>
+  <header>
         <h1>
           <a href="/">Matt McGinley</a>
         </h1>
-        <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
         <nav class="nav">
           <ul>
             <li class="nav__item">
@@ -56,11 +55,9 @@
         <img src="./assets/images/about-me-img-450.jpg" alt="Photo of Matt McGinley" class="intro__img grid-item3">
         </div><!--closes grid container-->
 
-        
+    </section> <!-- end intro section-->
 
-
-    </section>
-
+    <!--Begin My Services Section-->
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
@@ -92,7 +89,7 @@
             </div> <!-- /service-->
 
         </div><!-- /services-->
-        <a href="my-work" class="btn"> My Work</a>
+        <a href="#my-work" class="btn"> My Work</a>
     </section>
 
 
@@ -108,64 +105,79 @@
 
 
           </div> <!--closes about-me__body-->
-          <img src="./assets/images/placeholder-about-me-img.png" alt="Photo of Matt McGinley" class="about-me__img">
+          <img src="./assets/images/File_000.jpeg" alt="Photo of Matt McGinley" class="about-me__img">
 
-        <div class="skill-chart">
+        <!-- discarding skill chart for now 
+            <div class="skill-chart">
             <h3>Skills</h3>
             <img src="placeholder image">
 
 
-        </div>
+        </div> -->
 
     
-
-
     </section>
 
         <!-- My Work Section -->
 
-    <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section-subtitle"></p>
+    <section class="my-work" id="my-work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section-subtitle section__subtitle--work">Here is some of my recent work</p>
 
         <div class="portfolio">
             <!-- Portfolio item 1-->
             <a href="#" class="porfolio__item">
-                <img src="./assets/images/200-200 placeholder.png" alt="" class="portfolio__img">
+                <img src="./assets/images/sonder.jpg" alt="" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 2-->
             <a href="#" class="porfolio__item">
-                <img src="./assets/images/200x200-2.png" alt="" class="portfolio__img">
+                <img src="./assets/images/river.jpg" alt="" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 3-->
             <a href="#" class="porfolio__item">
-                <img src="./assets/images/200x200-3.png" alt="" class="portfolio__img">
+                <img src="./assets/images/lip.jpg" alt="" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 4-->
             <a href="#" class="porfolio__item">
-                <img src="./assets/images/200x200-4.png" alt="" class="portfolio__img">
+                <img src="./assets/images/hoop.jpg" alt="" class="portfolio__img">
             </a>
 
-            <!-- Portfolio item 3-->
+            <!-- Portfolio item 5-->
             <a href="#" class="porfolio__item">
-            <img src="./assets/images/200x200-5.png" alt="" class="portfolio__img">
+            <img src="./assets/images/road.jpg" alt="" class="portfolio__img">
             </a>    
 
-        </div>
+            <!-- Portfolio item 6-->
+            <a href="#" class="porfolio__item">
+            <img src="./assets/images/dope-court.jpg" alt="" class="portfolio__img">
+            </a>    
+
+
+        </div><!--closes portfolio-->
 
     </section><!--closes my work section-->
 
 
     <!-- Footer section-->
-    <footer>
+    <footer class="footer" id="contact-me">
+        <h3>Contact Me</h3>
         <a href="mailto:matthewjamesmcginley@gmail.com" class="footer-link">matthewjamesmcginley@gmail.com</a>
         <ul class="social-links">
-            <li class="social-list-item"><a class="social-list-link" href="https://github.com/mmcginley81">1</a></li>
-            <li class="social-list-item"><a class="social-list-link" href="https://www.linkedin.com/in/mmcginley81/"></a>2</li>
-            <li class="social-list-item"><a class="social-list-link" href="https://www.instagram.com/mcginley91/?hl=en"></a>3</li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/mmcginley81">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.linkedin.com/in/mmcginley81/">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.instagram.com/mcginley91/?hl=en">
+                    <i class="fab fa-instagram"></i>   
+                </a></li>
         </ul>
     
     </footer>
