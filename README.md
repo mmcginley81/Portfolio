@@ -1,2 +1,2 @@
-# Portfolio
-First try at a website portfolio
+# Portfolio Read Me
+This was my first try at a portfolio and honestly I am pulling my hair out. I have worked over 10 hours each of the last two days and it still looks awful. The more I mess with it the worse it looks. I have put over 40 hours in this week trying to learn the techniques in CSS and I did not feel as if I was set up for success at all. I went to 4 office hours and looked elsewhere online. I feel this was the best I could do given the time and level of instruction I got.
